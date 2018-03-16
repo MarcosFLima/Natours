@@ -80,7 +80,7 @@ body {
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 17.4px;
-    animation: moveInRight 0.1s ease-in;
+    animation: moveInRight 1s ease-in;
 
     /*animation-name: moveInRight;
     animation-duration: 1s;
