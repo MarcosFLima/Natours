@@ -135,7 +135,7 @@ body {
     border-radius: 100px;
     transition: all 0.2; 
     position: relative;
-    animation: moveInBotton 1s ease-in-out;
+    
 }
 
 .btn:hover {
@@ -173,4 +173,9 @@ body {
 .btn:hover::after{
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
+}
+
+.btn-animated{
+    animation: moveInBotton .5s ease-out .70s;
+    animation-fill-mode: backwards;
 }
