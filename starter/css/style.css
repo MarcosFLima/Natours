@@ -52,7 +52,7 @@ body {
   padding: 3rem; }
 
 .heading-primary {
-  color: #FFF;
+  color: #fff;
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem; }
@@ -79,8 +79,8 @@ body {
   background-image: linear-gradient(to right, #7ed56f, #28b485);
   -webkit-background-clip: text;
   color: transparent;
-  transition: all .2s;
-  letter-spacing: .1rem; }
+  transition: all 0.2s;
+  letter-spacing: 0.1rem; }
   .heading-secondary:hover {
     transform: skewY(2deg) skewX(15deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
@@ -119,7 +119,7 @@ body {
   padding: 1.5rem 4rem;
   display: inline-block;
   border-radius: 10rem;
-  transition: all .2s;
+  transition: all 0.2s;
   position: relative;
   font-size: 1.6rem; }
 
@@ -135,10 +135,10 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
 
 .btn--white {
-  background-color: #FFF;
+  background-color: #fff;
   color: #777; }
   .btn--white::after {
-    background-color: #FFF; }
+    background-color: #fff; }
 
 .btn::after {
   content: "";
@@ -150,10 +150,10 @@ body {
   top: 0;
   left: 0;
   z-index: -1;
-  transition: all .4s; }
+  transition: all 0.4s; }
 
 .btn--animated {
-  animation: moveInBotton .5s ease-out .70s;
+  animation: moveInBotton 0.5s ease-out 0.7s;
   animation-fill-mode: backwards; }
 
 .btn-text:link, .btn-text:visited {
@@ -162,12 +162,12 @@ body {
   display: inline-block;
   text-decoration: none;
   border-bottom: 1px solid #55c57a;
-  padding: .3rem;
-  transition: all .2s; }
+  padding: 0.3rem;
+  transition: all 0.2s; }
 
 .btn-text:hover {
   background-color: #55c57a;
-  color: #FFF;
+  color: #fff;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
   transform: translatey(-0.2rem); }
 
@@ -178,12 +178,12 @@ body {
 .composition {
   position: relative; }
   .composition__photo {
-    width: 55%;
+    width: 65%;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
-    border-radius: .2rem;
+    border-radius: 0.2rem;
     position: absolute;
     z-index: 10;
-    transition: .2s;
+    transition: 0.2s;
     outline-offset: 2rem; }
     .composition__photo--p1 {
       left: 0;
@@ -195,12 +195,12 @@ body {
       left: 20%;
       top: 10rem; }
     .composition__photo:hover {
-      outline: 1.5rem solid #55c57a;
+      outline: 1rem solid #55c57a;
       transform: scale(1.05) translateY(-0.5rem);
       box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
       z-index: 20; }
   .composition:hover .composition__photo:not(:hover) {
-    transform: scale(0.95); }
+    transform: scale(0.9); }
 
 /*HEADER: */
 .header {
@@ -237,14 +237,14 @@ body {
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
   .row .col-1-of-2 {
-    width: calc((100% - 6rem) /2); }
+    width: calc((100% - 6rem) / 2); }
   .row .col-1-of-3 {
-    width: calc((100% - 2 * 6rem) /3); }
+    width: calc((100% - 2 * 6rem) / 3); }
   .row .col-2-of-3 {
-    width: calc( 2 * ((100% - 2 * 6rem)/3) + 6rem); }
+    width: calc( 2 * ((100% - 2 * 6rem) / 3) + 6rem); }
   .row .col-1-of-4 {
-    width: calc((100% - 3 * 6rem)/4); }
+    width: calc((100% - 3 * 6rem) / 4); }
   .row .col-2-of-4 {
-    width: calc(2 * ((100% - 3 * 6rem)/4) + 6rem); }
+    width: calc( 2 * ((100% - 3 * 6rem) / 4) + 6rem); }
   .row .col-3-of-4 {
-    width: calc(3 * ((100% - 3 * 6rem)/4) + 2 * 6rem); }
+    width: calc( 3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
