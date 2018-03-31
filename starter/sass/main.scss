@@ -1,16 +1,19 @@
 @import "abstracts/_functions";
-@import "abstracts/_mixins.scss";
+@import "abstracts/_mixins";
 @import "abstracts/_variables";
 
 @import "base/_base";
 @import "base/_animations";
 @import "base/_typography";
-@import "base/_utilities.scss";
+@import "base/_utilities";
 
-@import "pages/_home.scss";
+@import "pages/_home";
 
 @import "components/_button";
+@import "components/_card";
 @import "components/_composition";
+@import "components/_feature-box";
+
 
 @import "layout/_header";
 
